@@ -1,4 +1,4 @@
-import ButtonClose from "../global/ButtonClose"
+import ButtonClose from "../globals/ButtonClose"
 
 export default function ListItem({ product,order,setOrder }) {
     return (

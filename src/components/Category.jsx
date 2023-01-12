@@ -1,4 +1,4 @@
-import CardCategory from './global/CardCargory'
+import CardCategory from './globals/CardCargory'
 
 export default function Category({ id,image,name,event,countProducts }){
    return (

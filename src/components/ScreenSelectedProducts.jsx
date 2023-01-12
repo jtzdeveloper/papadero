@@ -1,7 +1,7 @@
-import Screen from "./global/Screen";
+import Screen from "./globals/Screen";
 import List from './SideBar/List'
 import ListItem from './SideBar/ListItem'
-import ButtonClose from "./global/ButtonClose";
+import ButtonClose from "./globals/ButtonClose";
 
 export default function ScreenSelectedProducts({ order,setOrder,justify }){
     

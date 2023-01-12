@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react'
-import Content from './components/global/Content'
+import Content from './components/globals/Content'
 import ScreenCategories from './components/ScreenCategories'
 import getProducts from "./services/getProducts"
 import ScreenProducts from './components/ScreenProducts'
 import getPayments from './services/getPayments'
-import Drawer from './components/global/Drawer'
+import Drawer from './components/globals/Drawer'
 import Movies from './components/SideBar/Movies' 
 import SideBar from './components/SideBar/SideBar'
 import Footer from './components/Footer'

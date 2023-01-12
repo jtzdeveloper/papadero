@@ -1,10 +1,10 @@
 import { useState,useEffect } from "react"
 import useProductVariations from "../hook/useProductVariations"
-import Screen from "./global/Screen"
+import Screen from "./globals/Screen"
 import ListProducts from "./ListProducts"
 import { useQuery } from "@tanstack/react-query"
 import getProducts from "../services/getProducts"
-import ScreenLoading from "./global/ScreenLoading"
+import ScreenLoading from "./globals/ScreenLoading"
 
 export default function ScreenProducts({ idCategorySel,products,order,setOrder,productsFilter,setProductsFilter }){
      

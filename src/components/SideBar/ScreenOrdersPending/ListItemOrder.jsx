@@ -2,7 +2,7 @@ import { useState,useEffect } from "react"
 import { useQuery,useMutation, QueryClient, useQueryClient } from "@tanstack/react-query"
 import { eventChangeOptionMenu } from '../../../constants/'
 import deleteOrder from '../../../services/deleteOrder'
-import ScreenLoading from "../../global/ScreenLoading"
+import ScreenLoading from "../../globals/ScreenLoading"
 
 export default function ListItemOrder({ order,orderPendingSelected,setOrderPendingSelected,options,setOptions,loadScreen,setIsVisibleNav }){
 const queryClient = useQueryClient()

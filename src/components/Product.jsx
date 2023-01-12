@@ -1,7 +1,7 @@
 import { useEffect,useState } from "react"
 import useProductVariations from "../hook/useProductVariations"
 import getProductsVariations from "../services/getProductsVariations"
-import CardProduct from "./global/CardProduct"
+import CardProduct from "./globals/CardProduct"
 
 export default function Product({ product,order,setOrder,productsFilter,setProductsFilter }){
     

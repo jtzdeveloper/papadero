@@ -1,7 +1,7 @@
 import ListItemOrder from './ListItemOrder'
 import {getOrders} from '../../../services/getOrders'
 import { useQuery } from "@tanstack/react-query"
-import ScreenLoading from '../../global/ScreenLoading'
+import ScreenLoading from '../../globals/ScreenLoading'
 
 export default function ListOrdersPending({ options,
                                             setOptions,

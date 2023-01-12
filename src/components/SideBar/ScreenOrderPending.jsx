@@ -1,10 +1,10 @@
 import { useState,useEffect } from "react"
 import {getOrders} from '../../services/getOrders' 
-import ScreenLoading from "../global/ScreenLoading"
+import ScreenLoading from "../globals/ScreenLoading"
 import ListOrderPending from './ScreenOrdersPending/ListOrdersPending'
 import ScreenOrderPendingSelected from './ScreenOrdersPending/ScreenOrderPendingSelected'
 import ScreenPayOrder from './ScreenOrdersPending/ScreenPayOrder'
-
+    
 
 /* import TicketPdf from '../TicketPdf/TicketPdf' */
 export default function ScreenOrderPending({id,response,setResponse,options,setOptions,setIsVisibleNav,payments,order,setOrder,products,setProducts}){

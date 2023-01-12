@@ -1,8 +1,8 @@
 import { memo, useState } from "react"
 
-import Screen from "./global/Screen"
+import Screen from "./globals/Screen"
 import Category from "./Category"
-import Card from "./global/Card"
+import Card from "./globals/Card"
 import ListCategories from "./ListCategories"
 import useCategories from "../hook/useCategories"
 
