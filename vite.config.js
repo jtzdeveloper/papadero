@@ -5,10 +5,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/papadero/',
-  define: {
+ /*  define: {
     "global": {},
-  },
-  server: {
+  }, */
+ /*  server: {
     host: true
-  }
+  } */
 })
